@@ -5,6 +5,7 @@ import Contact from "./Components/Contact";
 import About from "./Components/About";
 import NotFound from "./Components/NotFound";
 import BlogItemDetails from "./Components/BlogItemDetails";
+import LoginForm from "./Components/Login";
 
 
 import './App.css'
@@ -17,6 +18,7 @@ const App = () => {
       <BrowserRouter>
       <Header />
       <Routes>
+         <Route path="/login" element={<LoginForm />} />
         <Route path = "/" element = {<Home/>} /> 
         <Route path="/about" element = {<About/>} />
         <Route path = "/contact" element = {<Contact/>} />

@@ -9,8 +9,6 @@ const Header = () => (
     <img alt="wave"  className="logo"  src="https://assets.ccbp.in/frontend/react-js/wave-logo-img.png" />
       <h1 className="title">Wave</h1>   
         </Link>
-
-
       
     </div>
     <ul className="nav-items-list">

@@ -16,6 +16,8 @@ class AuthService {
     });
 
     const data = await response.json();
+    console.log(data)
+    console.log(data.token)
 
     if (response.ok) {
       Cookies.set('token', data.token); // Store the JWT token in a cookie
